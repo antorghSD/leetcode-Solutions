@@ -20,7 +20,7 @@ class Solution {
         }
 
         for(int i =2; i*i<n; i++){
-            if(countPrime[i])
+            if(countPrime[i]==true)
             for(int j=i*i; j<n; j+=i){
                 
                      countPrime[j]=false;
